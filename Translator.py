@@ -1,6 +1,6 @@
 import streamlit as st
-from transformers import T5ForConditionalGeneration, T5Tokenizer
-from transformers import MarianMTModel, MarianTokenizer
+from transformers import T5ForConditionalGeneration, T5Tokenizer, MarianMTModel, MarianTokenizer
+
 
 summarization_model = T5ForConditionalGeneration.from_pretrained('t5-small')
 summarization_tokenizer = T5Tokenizer.from_pretrained('t5-small')
