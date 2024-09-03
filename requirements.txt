@@ -1,4 +1,0 @@
-transformers
-streamlit
-sentencepiece
-torch
